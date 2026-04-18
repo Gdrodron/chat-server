@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-alpine
 
 WORKDIR /app
 
-- COPY chatserver/ .
+COPY chatserver/ .
 + COPY . .
 
 RUN chmod +x mvnw
